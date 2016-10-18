@@ -31,6 +31,8 @@
 #'
 #' @importFrom tm PlainTextDocument
 #'
+#' @importFrom RColorBrewer brewer.pal
+#'
 #' @importFrom wordcloud wordcloud
 #'
 #' @param SearchTerm character (1) pubmed search term
