@@ -1,0 +1,13 @@
+Package: PubMedWordCloud
+Type: Package
+Title: Make a Word Cloud fugure using abstracts from a pubmed search
+Version: 0.1.0
+Author@R: person("Daniel", "Gaile",
+    email = "dpgaile@gmail.com",
+    role=c("aut","cre"))
+Description: A simple package for posting to a blog
+Depends: R (>= 3.3.1)
+License: Artistic-2.0
+Encoding: UTF-8
+LazyData: TRUE
+RoxygenNote: 5.0.1
