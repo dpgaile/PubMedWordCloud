@@ -7,6 +7,10 @@
 #'
 #' @importFrom RISmed EUtilsGet
 #'
+#' @importFrom RISmed ArticleTitle
+#'
+#' @importFrom RISmed AbstractText
+#'
 #' @importFrom tm VectorSource
 #'
 #' @importFrom tm tm_map
@@ -14,6 +18,18 @@
 #' @importFrom tm VCorpus
 #'
 #' @importFrom tm stopwords
+#'
+#' @importFrom tm removePunctuation
+#'
+#' @importFrom tm removeNumbers
+#'
+#' @importFrom tm removeWords
+#'
+#' @importFrom tm stripWhitespace
+#'
+#' @importFrom tm stemDocument
+#'
+#' @importFrom tm PlainTextDocument
 #'
 #' @importFrom wordcloud wordcloud
 #'
